@@ -1,0 +1,4 @@
+theme = "focus_nova"
+
+[editor.lsp]
+display-inlay-hints = true
