@@ -12,6 +12,11 @@ layout {
     tab name="shell" {
 		pane borderless=true
 	}
+	tab name="docker" {
+		pane borderless=true {
+			command "lazydocker"
+		}
+	}
 	tab name="explorer" {
 		pane borderless=true {
 		    command "yazi"
