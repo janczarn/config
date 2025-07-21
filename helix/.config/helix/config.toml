@@ -1,4 +1,8 @@
 theme = "focus_nova"
 
+[editor]
+# Force true-color for Windows Terminal
+true-color = true
+
 [editor.lsp]
 display-inlay-hints = true
