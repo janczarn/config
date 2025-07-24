@@ -19,8 +19,8 @@ layout {
 	}
 	tab name="explorer" {
 		pane borderless=true {
-		    command "yazi"
-		    args "~/projects/signal"
+		    command "env"
+		    args "YAZI_CONFIG_HOME=~/.config/yazi/signal" "yazi" "~/projects/signal"
 		}
 	}
 	tab name="git" {
@@ -31,6 +31,12 @@ layout {
 	tab name="helix" {
 		pane borderless=true {
 			command "hx"
+		}
+	}
+	tab name="notes" {
+		pane borderless=true {
+			command "yazi"
+			args "~/signal/notes"
 		}
 	}
 }
