@@ -36,7 +36,7 @@ layout {
 	tab name="notes" {
 		pane borderless=true {
 			command "yazi"
-			args "~/signal/notes"
+			args "~/google_drive/notes"
 		}
 	}
 }
