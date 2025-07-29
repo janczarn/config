@@ -9,12 +9,17 @@ layout {
             plugin location="status-bar"
         }
     }
+	tab name="helix" {
+		pane borderless=true {
+			command "hx"
+		}
+	}
     tab name="shell" {
 		pane borderless=true
 	}
-	tab name="docker" {
+	tab name="git" {
 		pane borderless=true {
-			command "lazydocker"
+			command "lazygit"
 		}
 	}
 	tab name="explorer" {
@@ -23,14 +28,9 @@ layout {
 		    args "YAZI_CONFIG_HOME=~/.config/yazi/signal" "yazi" "~/projects/signal"
 		}
 	}
-	tab name="git" {
+	tab name="docker" {
 		pane borderless=true {
-			command "lazygit"
-		}
-	}
-	tab name="helix" {
-		pane borderless=true {
-			command "hx"
+			command "lazydocker"
 		}
 	}
 	tab name="notes" {
