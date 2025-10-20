@@ -1,4 +1,4 @@
-theme = "focus_nova"
+theme = "my_theme"
 
 [editor]
 # Force true-color for Windows Terminal
